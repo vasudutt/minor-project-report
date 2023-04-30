@@ -1,0 +1,10 @@
+_minted-main
+.vscode
+main.log
+main.fls
+main.acn
+main.bbl
+main.fdb_latexmk
+main.synctex.gz
+
+bib.bib

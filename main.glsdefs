@@ -1,0 +1,28 @@
+\glsdefs@newdocentry{sa}%
+{%
+name={\acronymfont {\glsentryshort {sa}}},%
+sort={SA},%
+type={acronym},%
+first={SA},%
+firstplural={SAs},%
+text={SA},%
+plural={SAs},%
+description={Simple Abbr},%
+descriptionplural={Simple Abbr},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Simple Abbr},%
+longplural={Simple Abbrs},%
+short={SA},%
+shortplural={SAs},%
+counter={page},%
+parent={},%
+%
+}%
+
