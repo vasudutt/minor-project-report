@@ -13,6 +13,8 @@ Reallocating 'name_of_file' (item size: 1) to 26 items.
 A level-1 auxiliary file: covers/acknoledgement.aux
 Reallocating 'name_of_file' (item size: 1) to 20 items.
 A level-1 auxiliary file: covers/abstract.aux
+Reallocating 'name_of_file' (item size: 1) to 27 items.
+A level-1 auxiliary file: covers/list_of_figures.aux
 Reallocating 'name_of_file' (item size: 1) to 26 items.
 A level-1 auxiliary file: chapters/introduction.aux
 Reallocating 'name_of_file' (item size: 1) to 27 items.
@@ -32,7 +34,7 @@ I found no \citation commands---while reading file main.aux
 Database file #1: bib.bib
 You've used 0 entries,
             2118 wiz_defined-function locations,
-            509 strings with 4265 characters,
+            510 strings with 4291 characters,
 and the built_in function-call counts, 18 in all, are:
 = -- 0
 > -- 0

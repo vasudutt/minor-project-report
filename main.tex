@@ -4,6 +4,7 @@
 \usepackage{lipsum} 
 \usepackage[utf8]{inputenc}
 \usepackage{graphicx}
+\usepackage{hyperref}
 \usepackage[justification=centering]{caption} % All captions will be centered. 
 \usepackage{url} % To include in URL in reference. 
 \usepackage[nottoc]{tocbibind} %Includes "References" in the table of contents
@@ -16,11 +17,14 @@
 \usepackage[skip=12pt]{parskip} % Indentation between paragraphs
 \usepackage[style=long,nonumberlist,toc,xindy,acronym,nomain]{glossaries}
 
+\usepackage[section]{placeins}
+\usepackage{calc}
+\usepackage{eso-pic}
 
 %  TWEAKS %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Center the chapter title and make it uppercase. 
 \titleformat{\chapter}[display]
-  {\normalfont\Large\bfseries\centering}
+  {\normalfont\Large\bfseries}
   {CHAPTER \thechapter}{20pt}{\Large\uppercase}
 % To fix table position using ht. package: float
 \restylefloat{table}
@@ -48,8 +52,33 @@
 
 \newcommand\cMonthAndYear{April 2023}
 
+\newlength{\PageFrameTopMargin}
+\newlength{\PageFrameBottomMargin}
+\newlength{\PageFrameLeftMargin}
+\newlength{\PageFrameRightMargin}
+
+\setlength{\PageFrameTopMargin}{1cm}
+\setlength{\PageFrameBottomMargin}{1cm}
+\setlength{\PageFrameLeftMargin}{1cm}
+\setlength{\PageFrameRightMargin}{1cm}
+
+% ADD MARGINS %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\makeatletter
+
+\newlength{\Page@FrameHeight}
+\newlength{\Page@FrameWidth}
+
+\AddToShipoutPicture{
+  \thinlines
+  \setlength{\Page@FrameHeight}{\paperheight-\PageFrameTopMargin-\PageFrameBottomMargin}
+  \setlength{\Page@FrameWidth}{\paperwidth-\PageFrameLeftMargin-\PageFrameRightMargin}
+  \put(\strip@pt\PageFrameLeftMargin,\strip@pt\PageFrameTopMargin){
+    \framebox(\strip@pt\Page@FrameWidth, \strip@pt\Page@FrameHeight){}}}
+
+\makeatother
 
 \begin{document}
+
 \onehalfspacing
 
 % COVER PAGES %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -63,7 +92,7 @@
 \include{covers/acknoledgement}
 \include{covers/abstract}
 % \include{covers/list_of_tables} 
-% \include{covers/list_of_figures}
+\include{covers/list_of_figures}
 % \include{covers/abbreviations}
 
 
@@ -80,7 +109,7 @@
 %  TWEAKS %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Center chapter title and make it uppercase. 
 \titleformat{\chapter}[display]
-  {\normalfont\Large\bfseries\centering}
+  {\normalfont\Large\bfseries}
   {CHAPTER \thechapter}{20pt}{\Large\uppercase}
 % To fix table position using ht. package: float
 \restylefloat{table}
@@ -90,10 +119,10 @@
 \appendix  
 
 % BIBLIOGRAPHY %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\renewcommand{\bibname}{REFERENCES}
-\bibliographystyle{plain}
-\renewcommand{\thepage}{}
-\bibliography{bib}
+%\renewcommand{\bibname}{REFERENCES}
+%\bibliographystyle{plain}
+%\renewcommand{\thepage}{}
+%\bibliography{bib}
 
 
 \end{document}
