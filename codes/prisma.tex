@@ -1,0 +1,26 @@
+\begin{minted}[tabsize=2,breaklines]{js}
+	generator client {
+		provider = "prisma-client-js"
+	  }
+	  
+	  datasource db {
+		provider = "mongodb"
+		url      = env("DATABASE_URL")
+	  }
+	  
+	  model User {
+		id String @id @default(auto()) @map("_id") @db.ObjectId
+		name String? 
+		email String? @unique
+		emailVerified DateTime?
+		image String?
+		hashedPassword String?
+		createdAt DateTime @default(now())
+		updatedAt DateTime @updatedAt
+		favoriteIds String[] @db.ObjectId
+		
+		accounts Account[]
+		listings Listing[]
+		reservations Reservation[]
+	  }
+\end{minted}

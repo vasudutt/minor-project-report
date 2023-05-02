@@ -5,23 +5,58 @@ In this section, we will introduce the basic concepts related to the tools and t
 \section{NextJS}
 NextJS is a popular React framework that allows for efficient server-side rendering (SSR) and client-side rendering (CSR). SSR generates HTML on the server before sending it to the client, resulting in faster initial page loads and improved search engine optimization. CSR, on the other hand, renders pages on the client side, enabling dynamic and interactive user experiences. NextJS also provides features like automatic code splitting, route prefetching, and built-in API routes, making it an ideal choice for building modern web applications.
 
+\begin{figure}[!ht]
+    \input{codes/nextjs.tex}
+    \caption{Home page built with Next.js}\label{fig:nextjs}
+\end{figure}
+
 \section{Typescript}
 Typescript is a strongly typed superset of JavaScript that adds static typing to the language. By enforcing strict type-checking, Typescript helps catch potential errors during development and improves code maintainability. It provides a rich set of features such as type annotations, interfaces, generics, and modules, enabling developers to write more robust and scalable applications. Typescript also provides excellent editor support and helps enhance productivity by providing accurate code hints and refactoring tools.
+
+\begin{figure}[!ht]
+    \input{codes/typescript.tex}
+    \caption{Creating safe type definitions for User, Listing and Reservation entities}\label{fig:typescript}
+\end{figure}
 
 \section{Prisma}
 Prisma is an open-source ORM (Object-Relational Mapping) tool that simplifies database connectivity and data management. It provides a type-safe and auto-generated query builder that enables seamless interaction with the database. Prisma supports multiple databases, including PostgreSQL, MySQL, and SQLite, and offers features like data modeling, schema migrations, and advanced filtering capabilities. By abstracting away the complexities of database interactions, Prisma improves developer productivity and ensures secure and optimized database operations.
 
+\begin{figure}[!ht]
+    \input{codes/prisma.tex}
+    \caption{Prisma schema defining the User model}\label{fig:prisma}
+\end{figure}
+
 \section{TailwindCSS}
 TailwindCSS is a utility-first CSS framework that allows developers to rapidly build custom user interfaces. It provides a set of pre-defined utility classes that can be combined to create complex layouts and designs without writing custom CSS. TailwindCSS emphasizes a responsive-first approach, enabling the creation of responsive designs that adapt to different screen sizes. It also supports customization through configuration files, making it highly flexible and suitable for designing the user interface of the full stack application.
+
+\begin{figure}[!ht]
+    \input{codes/tailwind.tex}
+    \caption{Button component applying default and conditional styles with TaiwlwindCSS}\label{fig:tailwind}
+\end{figure}
 
 \section{MongoDB}
 MongoDB is a popular NoSQL database that offers high performance, scalability, and flexibility. It stores data in JSON-like documents, providing a schema-less structure that allows for easy handling of unstructured and semi-structured data. MongoDB's document model and flexible querying capabilities make it well-suited for applications with evolving data requirements. It also supports horizontal scaling, replication, and sharding, ensuring reliable and efficient data storage and retrieval.
 
+\begin{figure}[!ht]
+    \input{codes/mongo.tex}
+    \caption{Fetching reservations from MongoDB based on listingId or userId or authorId}\label{fig:mongo}
+\end{figure}
+
 \section{Cloudinary}
 Cloudinary is a cloud-based media management platform that simplifies the storage, transformation, and delivery of media files. It offers a scalable and reliable infrastructure for hosting images, videos, and other media assets. Cloudinary provides features like automatic image optimization, resizing, cropping, and format conversion, enabling efficient delivery of media files across different devices and network conditions. Integrating Cloudinary into the full stack application ensures optimal performance and a seamless media viewing experience for users.
 
+\begin{figure}[!ht]
+    \input{codes/cloudinary.tex}
+    \caption{Cloudinary react component being used to upload media to Cloudinary servers}\label{fig:cloudinary}
+\end{figure}
+
 \section{NextAuth}
 NextAuth is an authentication library for NextJS applications that provides a simple and extensible solution for user authentication. It supports various authentication providers, including traditional email and password login, as well as social login options through platforms like Google and GitHub. NextAuth handles the authentication flow, session management, and secure storage of user credentials, ensuring a robust and secure authentication mechanism for the full stack application.
+
+\begin{figure}[!ht]
+    \input{codes/next-auth.tex}
+    \caption{Next-auth snippet defining social and credential authentication options}\label{fig:next-auth}
+\end{figure}
 
 By understanding these basic concepts, readers will gain a solid foundation for comprehending the implementation and functionality of the full stack application. These concepts play a crucial role in the successful development of the project and enable users to appreciate the technical aspects behind its design and functionality.
 

@@ -4,27 +4,27 @@
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
 \contentsline {chapter}{\numberline {2}Basic Concepts}{3}{chapter.2}%
 \contentsline {section}{\numberline {2.1}NextJS}{3}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Typescript}{3}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Prisma}{4}{section.2.3}%
-\contentsline {section}{\numberline {2.4}TailwindCSS}{4}{section.2.4}%
-\contentsline {section}{\numberline {2.5}MongoDB}{4}{section.2.5}%
-\contentsline {section}{\numberline {2.6}Cloudinary}{4}{section.2.6}%
-\contentsline {section}{\numberline {2.7}NextAuth}{5}{section.2.7}%
-\contentsline {chapter}{\numberline {3}Problem Statement}{7}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Project Planning}{7}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Project Analysis}{8}{section.3.2}%
-\contentsline {section}{\numberline {3.3}System Design}{8}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Design Constraints}{8}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}System Architecture}{9}{subsection.3.3.2}%
-\contentsline {chapter}{\numberline {4}Implementation}{11}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Methodology}{11}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Testing Plan}{13}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Screenshots}{13}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Quality Assurance}{17}{section.4.4}%
-\contentsline {chapter}{\numberline {5}Standards Adopted}{18}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Design Standards}{18}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Coding Standards}{19}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Testing Standards}{19}{section.5.3}%
-\contentsline {chapter}{\numberline {6}Conclusion and Future Scope}{21}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Conclusion}{21}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Future Scope}{22}{section.6.2}%
+\contentsline {section}{\numberline {2.2}Typescript}{4}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Prisma}{5}{section.2.3}%
+\contentsline {section}{\numberline {2.4}TailwindCSS}{6}{section.2.4}%
+\contentsline {section}{\numberline {2.5}MongoDB}{8}{section.2.5}%
+\contentsline {section}{\numberline {2.6}Cloudinary}{10}{section.2.6}%
+\contentsline {section}{\numberline {2.7}NextAuth}{11}{section.2.7}%
+\contentsline {chapter}{\numberline {3}Problem Statement}{14}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Project Planning}{14}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Project Analysis}{15}{section.3.2}%
+\contentsline {section}{\numberline {3.3}System Design}{15}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Design Constraints}{15}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}System Architecture}{16}{subsection.3.3.2}%
+\contentsline {chapter}{\numberline {4}Implementation}{18}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Methodology}{18}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Testing Plan}{20}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Screenshots}{20}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Quality Assurance}{24}{section.4.4}%
+\contentsline {chapter}{\numberline {5}Standards Adopted}{25}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Design Standards}{25}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Coding Standards}{26}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Testing Standards}{26}{section.5.3}%
+\contentsline {chapter}{\numberline {6}Conclusion and Future Scope}{28}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Conclusion}{28}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Future Scope}{29}{section.6.2}%
